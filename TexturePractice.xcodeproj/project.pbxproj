@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5297E27924DAB20E00FC38FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297E27824DAB20E00FC38FA /* AppDelegate.swift */; };
 		5297E27B24DAB20E00FC38FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297E27A24DAB20E00FC38FA /* SceneDelegate.swift */; };
 		5297E27D24DAB20E00FC38FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297E27C24DAB20E00FC38FA /* ViewController.swift */; };
-		5297E28024DAB20E00FC38FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5297E27E24DAB20E00FC38FA /* Main.storyboard */; };
 		5297E28224DAB20E00FC38FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5297E28124DAB20E00FC38FA /* Assets.xcassets */; };
 		5297E28524DAB20E00FC38FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5297E28324DAB20E00FC38FA /* LaunchScreen.storyboard */; };
+		5297E28D24DAB28C00FC38FA /* MeetupFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297E28C24DAB28C00FC38FA /* MeetupFeedViewController.swift */; };
 		A37A72EF036E508D3C59B6B0 /* Pods_TexturePractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D3B84C3A879E73B7FBA140 /* Pods_TexturePractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,10 +23,10 @@
 		5297E27824DAB20E00FC38FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5297E27A24DAB20E00FC38FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5297E27C24DAB20E00FC38FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5297E27F24DAB20E00FC38FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5297E28124DAB20E00FC38FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5297E28424DAB20E00FC38FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5297E28624DAB20E00FC38FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5297E28C24DAB28C00FC38FA /* MeetupFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupFeedViewController.swift; sourceTree = "<group>"; };
 		CB5711E06507359CDDD47F4F /* Pods-TexturePractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TexturePractice.release.xcconfig"; path = "Target Support Files/Pods-TexturePractice/Pods-TexturePractice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,10 +66,10 @@
 				5297E27824DAB20E00FC38FA /* AppDelegate.swift */,
 				5297E27A24DAB20E00FC38FA /* SceneDelegate.swift */,
 				5297E27C24DAB20E00FC38FA /* ViewController.swift */,
-				5297E27E24DAB20E00FC38FA /* Main.storyboard */,
 				5297E28124DAB20E00FC38FA /* Assets.xcassets */,
 				5297E28324DAB20E00FC38FA /* LaunchScreen.storyboard */,
 				5297E28624DAB20E00FC38FA /* Info.plist */,
+				5297E28C24DAB28C00FC38FA /* MeetupFeedViewController.swift */,
 			);
 			path = TexturePractice;
 			sourceTree = "<group>";
@@ -80,7 +80,6 @@
 				235F4FC7A3F94C6B5AD66AB7 /* Pods-TexturePractice.debug.xcconfig */,
 				CB5711E06507359CDDD47F4F /* Pods-TexturePractice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,7 +153,6 @@
 			files = (
 				5297E28524DAB20E00FC38FA /* LaunchScreen.storyboard in Resources */,
 				5297E28224DAB20E00FC38FA /* Assets.xcassets in Resources */,
-				5297E28024DAB20E00FC38FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5297E28D24DAB28C00FC38FA /* MeetupFeedViewController.swift in Sources */,
 				5297E27D24DAB20E00FC38FA /* ViewController.swift in Sources */,
 				5297E27924DAB20E00FC38FA /* AppDelegate.swift in Sources */,
 				5297E27B24DAB20E00FC38FA /* SceneDelegate.swift in Sources */,
@@ -216,14 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5297E27E24DAB20E00FC38FA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5297E27F24DAB20E00FC38FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5297E28324DAB20E00FC38FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
